@@ -3,6 +3,10 @@ export default {
   '##': {
     type: 'separator',
   },
+  'getting-started':'',
+  'core-concepts':'',
+  'writing-fubam':'',
+  layouts:'',
   markdown: '',
   mantine: '',
   api: '',
@@ -18,3 +22,4 @@ export default {
   },
   'release-notes': '',
 };
+ 
