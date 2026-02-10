@@ -12,8 +12,7 @@ export function ColorSchemeToggle() {
    * As you can see we have to handle both the Mantine and Nextra dark mode.
    */
 
-  return (
-    <Group justify="center" mt="xl">
+  return (<>{/*<Group justify="center" mt="xl">
       <Button
         onClick={() => {
           setColorScheme('light');
@@ -38,6 +37,7 @@ export function ColorSchemeToggle() {
       >
         Auto
       </Button>
-    </Group>
+    </Group>*/}</>
+
   );
 }

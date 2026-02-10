@@ -6,7 +6,7 @@ import { Box, Button, Stack, Text } from '@mantine/core';
 export const Content = () => {
   return (
     <>
-      <Stack align="center" my={32}>
+{/*      <Stack align="center" my={32}>
         <Box lightHidden>
           <Text
             my={32}
@@ -103,8 +103,8 @@ export const Content = () => {
             'That was a long time ago',
             'But it was fun',
           ]}
-        /> */}
-      </Stack>
+        /> *\/
+      </Stack>*/}
     </>
   );
 };

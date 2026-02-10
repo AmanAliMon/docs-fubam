@@ -34,7 +34,7 @@ export const MantineNavBar = () => {
           <ColorSchemeControl />
           <iframe
             src="https://github.com/sponsors/gfazioli/button"
-            title="Sponsor gfazioli"
+            title="Donate to fubam"
             height="32"
             width="114"
             style={{ border: 0, borderRadius: '6px' }}
