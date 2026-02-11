@@ -53,10 +53,11 @@
     "typescript-eslint": "^8.47.0"
   },
   "name": "mantine-next-nextra-template",
+  "packageManager": "yarn@4.12.0",
   "private": true,
   "scripts": {
     "analyze": "ANALYZE=true next build",
-    "build": "next build && npm run build:pagefind",
+    "build": "next build && yarn build:pagefind",
     "build:pagefind": "pagefind --site .next/server/app --output-path public/_pagefind",
     "dev": "next dev",
     "eslint": "eslint .",
@@ -65,6 +66,9 @@
     "lint": "npm run eslint && npm run stylelint",
     "prettier:check": "prettier --check \"**/*.{ts,tsx}\"",
     "prettier:write": "prettier --write \"**/*.{ts,tsx}\"",
+    "release:major": "yarn version major",
+    "release:minor": "yarn version minor",
+    "release:patch": "yarn version patch",
     "start": "next start",
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build",
