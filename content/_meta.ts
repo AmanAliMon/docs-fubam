@@ -3,7 +3,10 @@ export default {
   '##': {
     type: 'separator',
   },
+  api: '',
+
   'getting-started':'',
+  // 'installation':'',
   'core-concepts':'',
   'writing-fubam':'',
   'components':'',
@@ -11,17 +14,16 @@ export default {
   'fubam-cli':'',
   markdown: '',
   mantine: '',
-  api: '',
-
-  '###': {
-    type: 'separator',
+  
+//  '###': {
+  //  type: 'separator',
     // title: 'My Items', // Title is optional
-  },
-  versioning: {
-    theme: {
-      toc: false,
-    },
-  },
-  'release-notes': '',
+  //},
+  // versioning: {
+  //   theme: {
+  //     toc: false,
+  //   },
+  // },
+  // 'release-notes': '',
 };
  
