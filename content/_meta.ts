@@ -4,7 +4,6 @@ export default {
     type: 'separator',
   },
   'getting-started':'',
-  'installation':'',
   'core-concepts':'',
   'writing-fubam':'',
   'components':'',
