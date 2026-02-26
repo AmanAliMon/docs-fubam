@@ -5,30 +5,29 @@ export default {
    */
   metadata: {
     title: {
-      default: 'Mantine Next.js and Nextra template',
-      template: '%s | Mantine Next.js and Nextra template',
+      default: 'Fubam (Functions Based Markup)',
+      template: '%s | Fubam',
     },
-    description: 'I am using Mantine with Next.js and Nextra!',
-    metadataBase: new URL('https://next-app-nextra-template.vercel.app/'),
+    description: 'Fubam is a modern web templating engine with functional paradigm tailored for high complexity templating!',
+    metadataBase: new URL('https://fubam.mdadsolutions.com/'),
     keywords: [
-      'Mantine',
-      'Nextra',
-      'Next.js',
-      'React',
-      'JavaScript',
-      'MDX',
-      'Markdown',
+      'Fubam',
+      'Functions based markup',
+      'Fubam.py',
+      'Fubam library',
+    'Python web templating',
+      'Functional templating paradigm',
       'Static Site Generator',
     ],
     generator: 'Next.js',
-    applicationName: 'Mantine',
+    applicationName: 'FubamDocs',
     appleWebApp: {
-      title: 'Mantine',
+      title: 'Fubam',
     },
     openGraph: {
       // https://github.com/vercel/next.js/discussions/50189#discussioncomment-10826632
       url: './',
-      siteName: 'Mantine',
+      siteName: 'Fubam',
       locale: 'en_US',
       type: 'website',
     },
@@ -36,7 +35,7 @@ export default {
       'msapplication-TileColor': '#fff',
     },
     twitter: {
-      site: 'https://next-app-nextra-template.vercel.app/',
+      site: 'https://fubam.mdadsolutions.com/',
     },
     alternates: {
       // https://github.com/vercel/next.js/discussions/50189#discussioncomment-10826632
