@@ -1,8 +1,13 @@
-import { IconBrandMantine } from '@tabler/icons-react';
-import { useMantineTheme } from '@mantine/core';
+import Image from 'next/image';
 
 export function Logo() {
-  const theme = useMantineTheme();
-
-  return <IconBrandMantine size={48} color={theme.colors.blue[5]} />;
+  return (
+    <Image
+      src="/fubam-logo.png"
+      alt="Fubam Logo"
+      width={40}
+      height={40}
+      priority
+    />
+  );
 }
