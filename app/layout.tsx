@@ -26,7 +26,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           nonce={head.mantine.nonce}
           defaultColorScheme={head.mantine.defaultColorScheme}
         />
-        <link rel="shortcut icon" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/fubam-logo.png" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
@@ -35,11 +35,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body>
         <MantineProvider theme={theme} defaultColorScheme={head.mantine.defaultColorScheme}>
           <Layout
-            banner={
-              <Banner storageKey={`release-notes-${pack.version}`}>
-                ✨ v{pack.version} Released -{' '}
+            banner={''/*
+              <Banner storageKey={`release-notes-1.0`}>
+                ✨ v1.0 Released -{' '}
                 <a href="/docs/release-notes">See the release notes</a>
-              </Banner>
+              </Banner>*/
             }
             navbar={<MantineNavBar />}
             pageMap={pageMap}
