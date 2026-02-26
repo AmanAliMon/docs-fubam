@@ -12,8 +12,8 @@ export default {
   'components':'',
   layouts:'',
   'fubam-cli':'',
-  markdown: '',
-  mantine: '',
+ // markdown: '',
+//  mantine: '',
   
 //  '###': {
   //  type: 'separator',
